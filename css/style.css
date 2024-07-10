@@ -4333,8 +4333,13 @@ a {
 }
 
 @media screen and (max-width: 540.98px) {
+  main.main {
+    padding-top: 80px;
+  }
+
   .first-screen__blockLeft {
     margin-bottom: 100px;
+    padding-bottom: 35px;
   }
 
   .first-screen__wrap-buttons {
