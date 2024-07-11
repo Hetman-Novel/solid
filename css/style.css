@@ -3455,6 +3455,30 @@ a {
   }
 }
 
+@media (min-width: 1281px) and (min-height: 600px) and (max-height: 902px) {
+  .first-screen__blockLeft {
+    padding: 40px 35px 50px;
+  }
+
+  .first-screen__blockLeft .n_sec-title {
+    margin-bottom: 20px;
+  }
+
+  .first-screen__blockRight {
+    padding: 30px 35px 90px 50px;
+  }
+
+  .first-screen__blockRight .n_sec-title {
+    margin-bottom: 30px;
+  }
+
+  .first-screen p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
+}
+
 @media screen and (min-width: 1501px) {
   .application-of-english__itemBlockImage {
     transform: translate(-30px, 2px);
