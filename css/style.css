@@ -2976,7 +2976,8 @@ a {
 }
 
 .about-studying .wrap-illustration {
-  bottom: calc(-15% + 11px);
+  bottom: -6%;
+  max-width: 80%;
   left: 0;
   position: absolute;
   right: 0;
@@ -3258,11 +3259,6 @@ a {
   .about-studying__slide {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .about-studying__slideBlockInfo {
-    padding-right: 5%;
-    width: 60%;
   }
 
   .about-studying__slideBlockImage {
@@ -3616,10 +3612,6 @@ a {
   .section-two {
     padding-bottom: 670px;
   }
-
-  .about-studying .wrap-illustration {
-    bottom: -6%;
-  }
 }
 
 @media screen and (max-width: 1200.98px) and (max-width: 1370px) {
@@ -3844,10 +3836,6 @@ a {
     line-height: 32px;
   }
 
-  .about-studying .wrap-illustration {
-    bottom: 4%;
-  }
-
   .faq .block {
     margin-top: 60px;
   }
@@ -3946,12 +3934,6 @@ a {
   .why-we-are-chosen__itemContent h5,
   .why-we-are-chosen__itemContent h6 {
     margin-bottom: 8px;
-  }
-}
-
-@media screen and (max-width: 860.98px) {
-  .about-studying .wrap-illustration {
-    bottom: 15%;
   }
 }
 
@@ -4238,10 +4220,6 @@ a {
     font-size: 17px;
     line-height: normal;
     margin-top: 8px;
-  }
-
-  .about-studying .wrap-illustration {
-    bottom: 8%;
   }
 
   .wrap-buttons-swipper .swiper-button-prev,

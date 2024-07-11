@@ -25,12 +25,5 @@ if (aboutStudyingSlider) {
       loop: true,
       speed: 800,
       effect: 'fade',
-      preloadImages: false,
-      lazy: {
-         loadOnTransitionStart: false,
-         loadPrewNext: false,
-      },
-      watchSlidesProgress: true,
-      watchSlidesVisibility: true,
    });
 }
