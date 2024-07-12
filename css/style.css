@@ -3389,6 +3389,13 @@ a {
 
 /* Plyr video player */
 
+button[type=submit],
+button[type=button],
+input[type=button],
+input[type=submit] {
+  color: #262961 !important;
+}
+
 @media screen and (min-width: 481px) {
   .popup .content .wrap-title {
     display: flex;
